@@ -1,0 +1,71 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:17:"5.5.9-1ubuntu4.17";s:10:"yiiVersion";s:5:"2.0.8";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.8";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:17:"5.5.9-1ubuntu4.17";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:1;}s:10:"extensions";a:6:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:52:"/home/muna/blog/blog/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:52:"/home/muna/blog/blog/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:50:"/home/muna/blog/blog/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:46:"/home/muna/blog/blog/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:44:"/home/muna/blog/blog/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:46:"/home/muna/blog/blog/vendor/yiisoft/yii2-faker";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:422;s:14:"requestHeaders";a:5:{s:10:"user-agent";s:11:"curl/7.35.0";s:4:"host";s:14:"localhost:8080";s:6:"accept";s:16:"application/json";s:12:"content-type";s:16:"application/json";s:14:"content-length";s:2:"32";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:21:"PHP/5.5.9-1ubuntu4.17";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";}s:5:"route";s:13:"create/create";s:6:"action";s:28:"yii\rest\CreateAction::run()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:16:"application/json";s:3:"Raw";s:32:"{"post": "example", "userId": 1}";s:17:"Decoded to Params";a:2:{s:4:"post";s:7:"example";s:6:"userId";i:1;}}s:6:"SERVER";a:20:{s:13:"DOCUMENT_ROOT";s:33:"/home/muna/blog/blog/frontend/web";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"54566";s:15:"SERVER_SOFTWARE";s:40:"PHP 5.5.9-1ubuntu4.17 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:7:"/create";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:43:"/home/muna/blog/blog/frontend/web/index.php";s:9:"PATH_INFO";s:7:"/create";s:8:"PHP_SELF";s:17:"/index.php/create";s:15:"HTTP_USER_AGENT";s:11:"curl/7.35.0";s:9:"HTTP_HOST";s:14:"localhost:8080";s:11:"HTTP_ACCEPT";s:16:"application/json";s:17:"HTTP_CONTENT_TYPE";s:16:"application/json";s:19:"HTTP_CONTENT_LENGTH";s:2:"32";s:18:"REQUEST_TIME_FLOAT";d:1467021415.0942211;s:12:"REQUEST_TIME";i:1467021415;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:0:{}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:16:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1467021415.094578;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1467021415.0946009;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1467021415.094955;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1467021415.0954809;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1467021415.0955441;i:4;a:0:{}}i:5;a:5:{i:0;s:36:"Request parsed with URL rule: create";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1467021415.0957601;i:4;a:0:{}}i:6;a:5:{i:0;s:36:"Request parsed with URL rule: create";i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1467021415.095773;i:4;a:0:{}}i:7;a:5:{i:0;s:32:"Route requested: 'create/create'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1467021415.0957849;i:4;a:0:{}}i:8;a:5:{i:0;s:27:"Route to run: create/create";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1467021415.0960619;i:4;a:0:{}}i:9;a:5:{i:0;s:39:"Rate limit skipped: user not logged in.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1467021415.0965309;i:4;a:0:{}}i:10;a:5:{i:0;s:44:"Running action: yii\rest\CreateAction::run()";i:1;i:8;i:2;s:30:"yii\base\Action::runWithParams";i:3;d:1467021415.096561;i:4;a:0:{}}i:11;a:5:{i:0;s:30:"SHOW FULL COLUMNS FROM `posts`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.0970831;i:4;a:0:{}}i:12;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=blog";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1467021415.0971241;i:4;a:0:{}}i:17;a:5:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'posts' AND kcu.table_name = 'posts'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.0982649;i:4;a:0:{}}i:20;a:5:{i:0;s:49:"SELECT EXISTS(SELECT * FROM `users` WHERE `ID`=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.100081;i:4;a:0:{}}i:23;a:5:{i:0;s:43:"Model not inserted due to validation error.";i:1;i:4;i:2;s:27:"yii\db\ActiveRecord::insert";i:3;d:1467021415.1004241;i:4;a:0:{}}}}s:9:"profiling";a:3:{s:6:"memory";i:3028848;s:4:"time";d:0.0073020458221435547;s:8:"messages";a:8:{i:13;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=blog";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1467021415.0971451;i:4;a:0:{}}i:14;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=blog";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1467021415.097544;i:4;a:0:{}}i:15;a:5:{i:0;s:30:"SHOW FULL COLUMNS FROM `posts`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.0975881;i:4;a:0:{}}i:16;a:5:{i:0;s:30:"SHOW FULL COLUMNS FROM `posts`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.098006;i:4;a:0:{}}i:18;a:5:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'posts' AND kcu.table_name = 'posts'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.098299;i:4;a:0:{}}i:19;a:5:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'posts' AND kcu.table_name = 'posts'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.0986149;i:4;a:0:{}}i:21;a:5:{i:0;s:49:"SELECT EXISTS(SELECT * FROM `users` WHERE `ID`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.1001229;i:4;a:0:{}}i:22;a:5:{i:0;s:49:"SELECT EXISTS(SELECT * FROM `users` WHERE `ID`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.100338;i:4;a:0:{}}}}s:2:"db";a:1:{s:8:"messages";a:6:{i:15;a:5:{i:0;s:30:"SHOW FULL COLUMNS FROM `posts`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.0975881;i:4;a:0:{}}i:16;a:5:{i:0;s:30:"SHOW FULL COLUMNS FROM `posts`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.098006;i:4;a:0:{}}i:18;a:5:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'posts' AND kcu.table_name = 'posts'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.098299;i:4;a:0:{}}i:19;a:5:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'posts' AND kcu.table_name = 'posts'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.0986149;i:4;a:0:{}}i:21;a:5:{i:0;s:49:"SELECT EXISTS(SELECT * FROM `users` WHERE `ID`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.1001229;i:4;a:0:{}}i:22;a:5:{i:0;s:49:"SELECT EXISTS(SELECT * FROM `users` WHERE `ID`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1467021415.100338;i:4;a:0:{}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"5770f86717349";s:3:"url";s:28:"http://localhost:8080/create";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1467021415;s:10:"statusCode";i:422;s:8:"sqlCount";i:3;s:9:"mailCount";i:0;}}

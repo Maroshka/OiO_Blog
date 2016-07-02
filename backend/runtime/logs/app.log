@@ -1,0 +1,262 @@
+2016-06-27 11:05:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:05:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39066'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467025507.1233
+    'REQUEST_TIME' => 1467025507
+]
+2016-06-27 11:08:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:08:05 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39070'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467025685.6319
+    'REQUEST_TIME' => 1467025685
+]
+2016-06-27 11:09:15 [127.0.0.1][-][d26h2s9e1l8v7ee2fbuc0q7rt3][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/muna/blog/blog/vendor/yiisoft/yii2/web/Request.php:189
+Stack trace:
+#0 /home/muna/blog/blog/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/muna/blog/blog/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/muna/blog/blog/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-06-27 11:09:15 [127.0.0.1][-][d26h2s9e1l8v7ee2fbuc0q7rt3][info][application] $_COOKIE = [
+    '_csrf' => '59464a536667132d329e63fe553e6b150677ced86765414fb3fcdb0e48b36e1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EB-m4F4CuTP1YpfK0lN-54jE5z3vcehP\";}'
+    'PHPSESSID' => 'd26h2s9e1l8v7ee2fbuc0q7rt3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39074'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=59464a536667132d329e63fe553e6b150677ced86765414fb3fcdb0e48b36e1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EB-m4F4CuTP1YpfK0lN-54jE5z3vcehP%22%3B%7D; PHPSESSID=d26h2s9e1l8v7ee2fbuc0q7rt3'
+    'REQUEST_TIME_FLOAT' => 1467025755.3627
+    'REQUEST_TIME' => 1467025755
+]
+2016-06-27 11:13:10 [127.0.0.1][-][d26h2s9e1l8v7ee2fbuc0q7rt3][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/muna/blog/blog/vendor/yiisoft/yii2/web/Request.php:189
+Stack trace:
+#0 /home/muna/blog/blog/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/muna/blog/blog/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/muna/blog/blog/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+2016-06-27 11:13:10 [127.0.0.1][-][d26h2s9e1l8v7ee2fbuc0q7rt3][info][application] $_COOKIE = [
+    '_csrf' => '59464a536667132d329e63fe553e6b150677ced86765414fb3fcdb0e48b36e1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EB-m4F4CuTP1YpfK0lN-54jE5z3vcehP\";}'
+    'PHPSESSID' => 'd26h2s9e1l8v7ee2fbuc0q7rt3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39112'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=59464a536667132d329e63fe553e6b150677ced86765414fb3fcdb0e48b36e1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EB-m4F4CuTP1YpfK0lN-54jE5z3vcehP%22%3B%7D; PHPSESSID=d26h2s9e1l8v7ee2fbuc0q7rt3'
+    'REQUEST_TIME_FLOAT' => 1467025990.4194
+    'REQUEST_TIME' => 1467025990
+]
+2016-06-27 11:13:34 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:13:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39138'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467026014.3155
+    'REQUEST_TIME' => 1467026014
+]
+2016-06-27 11:14:55 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:14:55 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39140'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467026095.088
+    'REQUEST_TIME' => 1467026095
+]
+2016-06-27 11:15:06 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:15:06 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39142'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467026106.6777
+    'REQUEST_TIME' => 1467026106
+]
+2016-06-27 11:15:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:15:56 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39154'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467026156.877
+    'REQUEST_TIME' => 1467026156
+]
+2016-06-27 11:16:33 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Users' not found' in /home/muna/blog/blog/common/models/Posts.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-27 11:16:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'DOCUMENT_ROOT' => '/home/muna/blog/blog/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39164'
+    'SERVER_SOFTWARE' => 'PHP 5.5.9-1ubuntu4.17 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/create'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/muna/blog/blog/backend/web/index.php'
+    'PATH_INFO' => '/create'
+    'PHP_SELF' => '/index.php/create'
+    'HTTP_USER_AGENT' => 'curl/7.35.0'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_LENGTH' => '32'
+    'REQUEST_TIME_FLOAT' => 1467026193.5083
+    'REQUEST_TIME' => 1467026193
+]
